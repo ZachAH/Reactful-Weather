@@ -1,9 +1,9 @@
 # Reactful-Weather
 
 ## Description of the Website
-This website is a weather app using react js and third party API's. Completly mobile friendly.
+This website is a weather app using react js and third party API's. 
 
-![Screenshot (180)](https://user-images.githubusercontent.com/68923037/116731065-dc475c80-a9ae-11eb-9243-b8e654dbb91a.png)
+![Screenshot (188)](https://user-images.githubusercontent.com/68923037/121573551-0139e100-c9eb-11eb-9b06-d069c91b72d2.png)
 
 
  
@@ -12,7 +12,7 @@ This website is a weather app using react js and third party API's. Completly mo
 ## Table of Contents
 * [How it Works](#how-it-works)
 * [Website Features](#website-features)
-* [Crown Clothing Website](#crown-clothing-website)
+* [Reactful-Weather Website](#crown-clothing-website)
 * [Credits](#credits)
 
 
@@ -32,6 +32,7 @@ This website is a weather app using react js and third party API's. Completly mo
 
 ## Features
 * Users can see the background dynamically change based upon the current weather of the city or country.
+* The app is mobile friendly.
 
   
 <br/>
