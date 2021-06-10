@@ -16,11 +16,11 @@ body {
 }
 
 .app.warm {
-  background-image: url("./assets/warmwether.jpg");
+  background-image: url("./assets/warmwether.png");
 }
 
 .app.cold {
-  background-image: url("./assets/coldweather.jpg");
+  background-image: url("./assets/coldweather.png");
 }
 
 main {
