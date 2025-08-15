@@ -6,7 +6,7 @@ import clearVideo from "./assets/sunnyweather.webm";
 import cloudsVideo from "./assets/cloudyweather.webm";
 import rainVideo from "./assets/rainyweather.webm";
 //import snowVideo from "./assets/snowyweather.webm";
-//import thunderVideo from "./assets/thunderstormyweather.webm";
+import thunderVideo from "./assets/thunderstormyweather.webm";
 import defaultVideo from "./assets/sunnyweather.webm";
 
 
@@ -22,7 +22,7 @@ const videoUrls = {
   clouds: cloudsVideo,
   rain: rainVideo,
   //snow: snowVideo,
-  //thunderstorm: thunderVideo,
+  thunderstorm: thunderVideo,
   default: defaultVideo
 };
 
