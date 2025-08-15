@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "./App.css";
 
 // Import video files directly
-import clearVideo from "./assets/sunnyweather.webm";
+import clearVideo from "./assets/sunnyweather.wp4";
 import cloudsVideo from "./assets/cloudyweather.webm";
 import rainVideo from "./assets/rainyweather.webm";
 //import snowVideo from "./assets/snowyweather.webm";
 import thunderVideo from "./assets/thunderstormyweather.webm";
-import defaultVideo from "./assets/sunnyweather.webm";
+import defaultVideo from "./assets/default.webm";
 
 
 // Configure the API key and base URL for WeatherAPI.com
