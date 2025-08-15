@@ -12,7 +12,7 @@ import defaultVideo from "./assets/default.webm";
 
 // Configure the API key and base URL for WeatherAPI.com
 const api = {
-  key: "process.env.REACT_APP_WEATHER_API_KEY",
+  key: process.env.REACT_APP_WEATHER_API_KEY,
   base: "https://api.weatherapi.com/v1/",
 };
 
@@ -47,20 +47,18 @@ function App() {
           setForecast(result.forecast.forecastday);
           console.log(result);
 
-          // Update the video URL based on the current weather condition text.
-          // This only changes for the live, current weather.
           const condition = result.current.condition.text.toLowerCase();
           console.log("Weather condition from API:", condition);
 
           if (condition.includes("sun") || condition.includes("clear")) {
             setVideoUrl(videoUrls.clear);
-          } else if (condition.includes("clouds") || condition.includes("overcast")) {
+          } else if (condition.includes("clouds") || condition.includes("overcast") || condition.includes("cloudy")) {
             setVideoUrl(videoUrls.clouds);
           } else if (condition.includes("rain") || condition.includes("drizzle")) {
             setVideoUrl(videoUrls.rain);
           } else if (condition.includes("snow") || condition.includes("sleet") || condition.includes("ice")) {
             setVideoUrl(videoUrls.snow);
-          } else if (condition.includes("thunder")) {
+          } else if (condition.includes("thunder") || condition.includes("lightning")) {
             setVideoUrl(videoUrls.thunderstorm);
           } else {
             setVideoUrl(videoUrls.default);
