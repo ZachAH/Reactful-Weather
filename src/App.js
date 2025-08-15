@@ -12,7 +12,7 @@ import defaultVideo from "./assets/default.webm";
 
 // Configure the API key and base URL for WeatherAPI.com
 const api = {
-  key: "cad980cf6a8b4da4b5903239251508",
+  key: "process.env.REACT_APP_WEATHER_API_KEY",
   base: "https://api.weatherapi.com/v1/",
 };
 
